@@ -1,0 +1,60 @@
+html {
+    font-size: 10px;;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 10px;
+    background: url('https://cdn.pixabay.com/photo/2019/03/03/14/38/hacker-4031973_640.jpg') bottom center;
+    background-size: cover;
+  }
+  
+  /* Estilo para cada tecla */
+  .key {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Cambio de color al pasar el cursor sobre la tecla */
+  .key:hover {
+    background-color: #f0f0f0;
+  }
+  .key {
+    border: 5px solid black;
+    border-radius: 40px;
+    margin: 7px;
+    font-size: 1.8rem;
+    padding: 15px 5px;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: greenyellow;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 10px aqua;
+  }
+  
+  .playing {
+    transform: scale (1.1) ease;
+    border-color: #ffc600;
+    box-shadow: 0 0 1px #ffc600;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 45px;
+  }
+  
+  .sound {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: aqua;
+  }
