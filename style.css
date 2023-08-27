@@ -75,6 +75,30 @@ html {
   .navbar-item:hover::after {
     transform: scaleX(1);
   }
+ /* Estilo del aside */
+aside {
+  background-image: url('https://media.istockphoto.com/id/1249636494/es/v%C3%ADdeo/notas-musicales-volando-sobre-fondo-negro.jpg?s=256x256&k=20&c=3qUA-BDOF4ISz_7Gu1cQLTCeMFw1nGT_T2diX7DUTx4=');
+  color: greenyellow;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center; /* Centrar el texto horizontalmente */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Ajusta el alto según tus necesidades */
+}
+
+aside h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+aside .description {
+  font-size: 18px;
+  margin: 0; /* Asegura que no haya margen adicional */
+}
+
   /* Estilo para cada tecla */
   .key {
     display: inline-block;
